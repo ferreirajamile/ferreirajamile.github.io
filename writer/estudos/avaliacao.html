@@ -1,0 +1,174 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/03estudos.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                <strong>Avaliação de desempenho:</strong>                 tipos e implementações<br />
+                  <span class="menor"><br />
+                  Jamile Ferreira</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify" >
+                  <p>Na atualidade, a estrutura administrativa 
+                                    governamental tem passado por in&uacute;meras 
+                                    mudan&ccedil;as. Influ&ecirc;ncias externas, 
+                                    como a economia globalizada, o desenvolvimento 
+                                    ininterrupto da tecnologia, e uma s&eacute;rie 
+                                    de outros fatores, contribuem para tais mudan&ccedil;as. 
+                                    Por&eacute;m, nenhum outro fator possui mais 
+                                    import&acirc;ncia do que o Ser Humano.<br />
+                                    <br />
+Buscando aprimorar sua forma de atender a 
+                                    popula&ccedil;&atilde;o, o Estado estipula 
+                                    altera&ccedil;&otilde;es em normas j&aacute; 
+                                    pre-estabelecidas para que consiga alcan&ccedil;ar 
+                                    a sua legitima&ccedil;&atilde;o perante os 
+                                    cidad&atilde;os, atrav&eacute;s da Reforma 
+                                    Administrativa. Para tal, este precisa aprimorar 
+                                    seus recursos humanos &#8211; os profissionais 
+                                    que formam a estrutura governamental. Assim, 
+                                    apresentando resultados positivos, o Estado 
+                                    conquista a sua credibilidade, j&aacute; t&atilde;o 
+                                    acra.<br />
+                                    <br />
+Este trabalho vem levantar dados para que 
+                                    as novas a&ccedil;&otilde;es diante do servi&ccedil;o 
+                                    p&uacute;blico alcance seu resultado. Buscando 
+                                    experi&ecirc;ncias e dados te&oacute;ricos 
+                                    j&aacute; desenvolvidos h&aacute; muito por 
+                                    empresas privadas, concep&ccedil;&otilde;es 
+                                    como a Qualidade Total e a implementa&ccedil;&atilde;o 
+                                    de Padr&otilde;es e Avalia&ccedil;&atilde;o 
+                                    de Desempenho, s&atilde;o passos dados rumo 
+                                    ao melhor tratamento do servidor p&uacute;blico, 
+                                    pois n&atilde;o existem formas de avaliar 
+                                    um profissional sem que este tenha recebido 
+                                    embasamento suficiente para seu aprimoramento 
+                  e desenvolvimento.</p>
+                  <p>O funcion&aacute;rio p&uacute;blico ter&aacute; 
+                                    que passar por uma mudan&ccedil;a comportamental 
+                                    para adaptar-se a nova administra&ccedil;&atilde;o, 
+                                    que deixa de ser burocr&aacute;tica e torna-se 
+                                    gerencial. Ter&aacute; que adquirir uma s&eacute;rie 
+                                    de informa&ccedil;&otilde;es sobre suas novas 
+                                    diretrizes de a&ccedil;&atilde;o e fun&ccedil;&atilde;o 
+                                    e adaptar-se &agrave;s cobran&ccedil;as em 
+                                    seu desempenho. <br />
+                                    <br />
+&Eacute; trazendo os resultados de experi&ecirc;ncias 
+                                    j&aacute; realizadas em empresas privadas, 
+                                    que este trabalho demonstra sua import&acirc;ncia, 
+                                    pois trar&aacute; as obje&ccedil;&otilde;es 
+                                    que o Estado precisar&aacute; contornar para 
+                                    atender aos anseios de seus clientes internos 
+                                    &#8211; os funcion&aacute;rios p&uacute;blicos, 
+                  e seus clientes externos, os cidad&atilde;os.</p>
+<p align="right">&nbsp;</p>
+<p align="center"><a href="#topo">up!</a></p>
+<p align="center">&nbsp;</p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

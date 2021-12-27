@@ -1,0 +1,172 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/02contos.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                <br />
+                  <p><span class="fonttitulo">Parágrafo, Travessão</span><br />
+                  </span><span class="style3">[ um dia difícil ]</span><span class="menor"><br />
+                  Jamile Ferreira<br />
+                  </span>                  </p>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p>Meu dia começa lindo: minha  mamãe me acorda com um suave grito na orelha, batendo a porta  contra a parede com a seguinte frase de efeito moral:  ACORDA, JAMILE. SãO 10 HORAS E VOCÊ MARCOU COM SUA TIA ÀS 11:20HS. </p>
+          <p>Pois é,  até ai, nada de extraordinário... se não fosse pelo fato de que só consegui  dormir às 6 da manhã porque não consigo baixar a atualização do programa desde segunda-feira...</p>
+          <p>Ok. Levanto mongolóide e furiosa da vida  porque eu simplesmente ODEIO ser acordada. ODEIO MESMO. Mas tudo bem, vou  encontrar com minha tia: minha patrocinadora para o vestibular, porque no meu  bolso tem exatamente R$ 3,27 centavos. E minha conta bancária possui um enorme ZERO no  saldo do dia.</p>
+          <p>E ao pegar o telefone para saber quanto  é a inscrição do vestibular que eu não quero fazer porque vou estar  morando em Sampa, estudando em Sampa, comendo em Sampa,  enfim,  a partir de outubro deste, (sonho meu! sonho meu!), descubro que o telefone foi cortado. QUE DROGA, MÃE...  por que a porcaria do telefone está cordado???</p><p>Mãe responde, parágrafo travessão:<br>
+            - Com o dinheiro, comprei um tênis pro  seu irmão,  filhinha. e é até bom porque assim você dorme mais cedo!<br>
+            Ok, lindo... amorzinho... passei mais  de um ano sem computador, quando meu amigo me empresta seu mega maravilhoso lap top,  eu fico sem telefone... QUE IRONIA DO IMBECIL DO DESTINO, NÃO?</p>
+          <p>Pois é. Sem dinheiro, sem paciência e  sem telefone, andei feito louca pra pegar o metrô... EM GREVE !!!!!!  CUSTOU UM ANO PRA PASSAR... mas tudo bem. Passou.</p>
+          <p>            Ao andar LÉGUAS pra chegar no colégio  onde ela dá aula, um homem passa me prensando contra a parede e cospe a  seguinte pérola no meu ouvido, parágrafo travessão:</p>
+          <p>- Mas como tu é FEIA, hein? </p>
+          <p>E SAIU  RINDO ALTO...</p>
+          <p>            Com o perdão das palavras: MAS QUE %SX#$&amp;! </p>
+          <p>Ai, páro, e vejo um out door  do Célio de Castro, outro da Maria Elvira e um do José Eustáquio, que prega o  armamento da população e um salário mínimo de R$ 1.500,00! Mas... HEIN?</p>
+          <p>Cheguei na hora marcada e pergunto pro  porteiro, parágrafo travessão:</p>
+          <p>            - Com licença, bom dia... eu gostaria  de falar com a Maria...</p>
+          <p>Ele, grosso e rabujento, não  responde... RESMUNGA:</p>
+          <p>            - A Maria? Ih,  ela acabou  de ir embora. Agora, só 1hs da tarde...</p>
+          <p>QUE LINDO! Sol de meio dia,  calor, preguiça, sono e fome e SEM VESTIBULAR! Até que eu  sobreviveria bem ao fato de não prestá-lo, mas minha mãe ia falar na minha orelha até ela, a orelha, apodrecer e cair!</p>
+          <p>Ligo pra casa da minha outra tia,  porque além de não ter dinheiro e paciência, também não tinha o número. Mas de que adiantaria: O número dela não recebe chamadas a  cobrar! ÓTIMO!</p>
+          <p>Mas tudo bem. Ligo pra OUTRA tia. A cobrar. A EMPREGADA  NÃO ACEITA A LIGAÇÃO! Ligo de novo, ela aceita, eu peço pra ligar pra  minha mãe e passar pra ela o número do telefone do orelhão, ok? Ok... Ai,  lembro que minha mãe não pode ligar... ligo de novo... ela aceita... eu digo  pra ligar só pra avisar que eu não encontrei minha tia... </p>
+          <p>A moça em questão me pergunta qual é mesmo o número do telefone da minha CASA porque ela não sabe ler na agenda, e esqueceu o número &quot;de cabeça&quot;, e está sem caneta e papel pra anotar! Deixa pra lá...  esquece! Esquece mesmo.</p>
+          <p>Volto pra casa de metrô... GREVE...  LENTIDÃO... LETARGIA... LOTADO... GENTE CHEIRANDO A MEXERICA.</p>
+          <p> Ao sair  da estação fui andando pela pista de cooper da Avenida José Cândido da Silveira,  pensando em como essa minha vidinha é desgranhenta de chata e já me vendo  percorrer o mesmo caminho de volta ao colégio na parte da tarde... até que de  repente, não mais que de repente PISO NUMA BOSTA DE CACHORRO QUE FICA GRUDADA  NO MEU TÊNIS BRANQUINHO QUE TINHA ACABADO DE SER LAVADO! Ouh...  isso não é vida!</p>
+          <p>Fico lá, esfregando o pé na grama,  enquanto um monte de estudante da rede municipal de ensino passa por mim rindo  e apontando pra mim! LINDO! MEIGO! </p>
+          <p>Continuo morrendo de falta de graça, furiosa da vida... tanto que  acabei rindo. </p>
+          <p>Até que de repente, vindo em minha direção um homem lindo!!! Correndo, sem camisa, com  uma bermuda bacana,  muito fino, muito bonito, homem mesmo. Não é para o meu  bico, mas poxa... tô com cocô no tênis, mas não tô morta, né??? </p>
+          <p>Na exata hora  que ele se aproxima e  passar por mim, EU ESCORREGO no cocô, DERRAPO, CAMBALEIO,  QUASE CAIO, e uma brasília bege passa, buzina, e  UM IDIOTA GRITA, CUIDADO AI, GOSTOSA! </p>
+          <p>...</p>
+          <p>Me consertei, levantei a cabeça, foquei num ponto no horizonte, segurei a respiração e  comecei a andar rápido.</p>
+          <p>Impossível descrever minha vontade de sofrer auto-combustão espontânea</p>
+          <p>Tudo bem. Chego em casa, e a Maria tinha  ligado. ELA SÓ TINHA IDO NO BANCO AO LADO DO COLÉGIO. ERA PRA EU VOLTAR LÁ.</p>
+          <p>Sem chance de almoçar, vou  de novo para o metrô... agora, acompanhada de mamãe que se compadeceu de mim,  óh vida, óh azar, já dizia o Lippy, do Lippy and Hardy !!!!!!!</p>
+          <p>Mais metrô, mais greve, finalmente  encontramos titia. Ela me entrega do dinheiro para a inscrição e vale-transporte porque  quer fazer o serviço completo. LEGAL, porque aceito vale-transporte, tícket refeição, injeção na testa, e qualquer outra coisa que vier de graça!</p>
+          <p>Vamos para o centro da cidade. GREVE  DOS PERUEIROS NA AFONSO PENA. EM FRENTE AOS CORREIOS, LOCAL DA INSCRIÇÃO PARA  VESTIBULAR! </p>
+          <p>Tudo bem. Comprei o caderninho, preenchi  a inscrição para CIÊNCIAS SOCIAIS, LICENCIATURA PARA POLÍTICA (NÃO TEÇA  NENHUM TIPO DE COMENTÁRIO, POR FAVOR). </p>
+          <p>Quando me encaminho para falar com  mamãe, que está na fila ENORME, POR SINAL, EU... ATENÇÃO PARA ESSA PARTE QUE É A  MELHOR:</p>
+          <p>EU ESCORREGO NO MEIO DA AGÊNCIA DOS CORREIOS  LOTADA DE VESTIBULANDOS  E... CAIO FEITO UMA JACA NA FRENTE DE UM  CARA QUE TENTAVA IR EMBORA... CAÍ... CAÍ SIM... CAÍ BONITO... CAÍ COM TODA A  MINHA ENORME RETAGUARDA ESTATELADA NO CHÃO. E PIOR: CAÍ AOS POUCOS.</p>
+          <p> Meu pé escorregou (com certeza, por causa da merdinha do cachorro que devia ainda estar pregada por lá...). </p>
+          <p>Meus pés foram para frente.</p>
+          <p>Meu corpo foi para trás.</p>
+          <p>Minha b*nda foi ao chão.</p>
+          <p>Meus braços foram para cima, e só deu Manual do Candidato voando para todos os lados!</p>
+          <p>Se eu machuquei? Quem me dera! Só meu orgulho que ficou profundamente ferido.</p>
+          <p>Levantei rápido como uma bala, dolorida porque não estava acostumada a cair (MENTIRA! Eu cai em Ouro Preto, cai na pista de cooper, cai na escadaria do bar, eu caio feito uma abóbora em qualquer lugar e ocasião). </p>
+          <p>Eu cai tão lentamente que o rapaz que estava na minha frente ficou olhando toda a cena dantesca e ficou paralisado.</p>
+          <p>Eu sempre caio lentamente. É muito estranho. E com os pés pra cima. É muito ridículo!</p>
+          <p>Pois é. Levantei rindo sem graça,  caminhei até mamãe, que falou, parágrafo, travessão:</p>
+          <p>- Filha, eu notei que de repente, você abaixou e logo depois eu vi seus pés. Está tudo bem?</p>
+          <p>...</p>
+          <p>Não fiz comentários. Enfiei o rabinho entre as pernas e fiquei quietinha até  sair de lá o mais urgente possível.</p>
+          <p>Mamãe pagou lanchinho pra mim porque viu  que hoje realmente, não era o meu dia! </p>
+          <p>E assim, voltei pra casa: SUJA DE  COCÔ DE CACHORRO, COM A B*NDA DOENDO, MORRENDO DE VERGONHA DO MUNDO POR CAUSA  DOS TOMBOS TODOS QUE TOMEI E UM MANUAL DE CANDIDATO PARA CIÊNCIAS SOCIAIS  DEBAIXO DO BRAÇO.</p>
+          <p>...</p>
+          <p>E NÃO PASSEI NO VESTIBULAR!!!</p>
+          <p>&nbsp;</p>
+                    <p align="center"><a href="#topo">up!</a><br>
+                    </p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,131 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <span class="fonttitulo">A delicada arte dos bordados &quot;A Mão&quot;</span><br />
+                  <span class="fontsubtitulo">Revista Mais, 
+
+Edi&ccedil;&atilde;o 17 -
+Ano II</span><span class="menor"><br />
+                  <br />
+                  Jamile Ferreira</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p align="center"><strong><img src="../images/logo_amao.jpg" width="100" height="474" hspace="5" vspace="5" align="right" class="borderspaco" /><img src="../images/mais_m17e.gif" width="350" height="316" align="left" class="borderspaco" /></strong></p>
+                  <p align="left"> Em sofisticadas lojas de Minas Gerais, Rio de Janeiro e S&atilde;o Paulo,   consumidores de bom gosto encontram a fina arte do bordado feito &agrave; m&atilde;o, dos   Bordados A M&Atilde;O.</p>
+                  <p align="left">Sob a dire&ccedil;&atilde;o de Rog&eacute;rio Mendes, uma equipe de bordadeiras patenses e   olegarienses, com m&atilde;os talentosas, est&atilde;o comprometidas com o trabalho de criar   pe&ccedil;as &uacute;nicas na qualidade, na per&iacute;cia e na beleza.</p>
+                  <p align="left">&quot;Nossa inten&ccedil;&atilde;o era resgatar essa tradi&ccedil;&atilde;o, fazendo uma releitura para pe&ccedil;as   atuais&quot;. diz Rog&eacute;rio - empres&aacute;rio em Patos de Minas &agrave; frente tamb&eacute;m do Bar e   Restaurante NA TERRA, considerado um dos melhores estabelecimentos do g&ecirc;nero na   regi&atilde;o. </p>
+                  <p align="left">E ainda consegue conciliar suas empresas com seu trabalho como decorador de   ambientes e eventos e seu curso superior em Moda. Morou em Bras&iacute;lia, Rio de   Janeiro e Cabo Frio, mas foi em sua cidade natal, Patos de Minas e em Presidente   Oleg&aacute;rio onde encontrou as mulheres que d&atilde;o vida e personalidade &agrave; moda atrav&eacute;s   de bordados que cairam no gosto de nomes importantes do mercado, como os Irm&atilde;os   Campana, em S&atilde;o Paulo.</p>
+                  <p align="left"><img src="../images/mais_capa17.gif" width="150" height="207" align="left" class="borderspaco" />As artes&atilde;s est&atilde;o sempre a par das tend&ecirc;ncias da moda, por&eacute;m desenvolvendo um   trabalho art&iacute;stico leg&iacute;timo das &quot;Minas Gerais&quot;. Segundo Rog&eacute;rio, &eacute; preciso estar   sempre reciclando conhecimento, no sentido de fazer sempre &quot;diferente&quot;, aliado   ao bom gosto.</p>
+                  <p align="left">O ateli&ecirc; possui marca pr&oacute;pria de roupas e almofadas exclusivas, tamb&eacute;m   desenvolve produtos para diversas confec&ccedil;&otilde;es e est&aacute; pronto para atender novos   clientes.</p>
+                  <p>Desenhos delicados, geometrias e o uso criativo das cores tornam os Bordados   A M&Atilde;O uma refer&ecirc;ncia no setor, al&eacute;m de prestar um servi&ccedil;o &agrave; cultura local,   mantendo viva a laboriosa arte de bordar, fazendo o bom gosto mineiro desfilar   com orgulho pela estrada da moda de v&aacute;rias capitais brasileiras.</p>
+                  <p align="left">&nbsp;</p>
+                </div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

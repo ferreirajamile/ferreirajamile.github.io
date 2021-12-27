@@ -1,0 +1,132 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/02acronicas.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <strong>ibm<br />
+                  </strong>carta para emprego<br />
+                  <span class="menor"><br />
+                  Jamile Ferreira</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p>Belo Horizonte, na segunda-feira após o anúncio no jornal...</p>
+                  <p>Prezados Senhores que invejo profundamente;</p>
+                  <p>Em 1994, tive a oportunidade de fazer dois cursos na  IBM: &quot;Negociação&quot; e &quot;Vendas, marketing e cobertura&quot; -  cursos que tenho o maior orgulho de dizer &quot;YEAH, EU FIZ!&quot;</p>
+                  <p>E durante esses cursos me apaixonei pela empresa. Comprei  um APTIVA – meu primeiro e até hoje fiel computador escudeiro. E ainda sinto  ondas de calor quando penso na possibilidade de ver &quot;IBM&quot; como  empresa depositante do meu FGTS!</p>
+                  <p>Na época, estava na faculdade, tinha uma vida divertida e  primaveril, decidi trabalhar em outros lugares para maiores experiências (e pagamento das noitadas porque faculdade é perdição!) e me preparar para ingressar nesta empresa.</p>
+                  <p>Trabalhei e continuo estudando muito - coisas que realmente adoro fazer, além de 
+                    navegar na internet, ir ao cinema, comer jabuticaba, achar dinheiro esquecido  no bolso da calça jeans...</p>
+                  <p>Hoje, do alto dos meus 25 anos, com algumas vitórias e, sim,  rugas, estou aqui na frente do meu Aptiva, enviando meu curr¡culo para  preencher o cargo de &quot;Especialista em Vendas&quot;, em Belo Horizonte ou  Curitiba, ainda sem acreditar que escrevi essa carta que, por ser estupidamente  fora do bom senso, com certeza, não deveria ter mandado... agora é  tarde!</p>
+                  <p>&quot;Ousadia, dinamismo e alta capacidade de aprendizagem - essas  são algumas das qualidades que coloco à disposição desta empresa, na busca diuturna de meus objetivos&quot;.</p>
+                  <p>Bonito, não é? Mas é meio conversa fiada, ok? A minha ousadia pára na primeira ameaça contundente a corte de salário; não sou tão dinâmica - sou muito alta pra ser dinâmica, e tenho alta capacidade para aprender coisas que me interessam - caso contrário, hãn? o quê? como? não entendi! Tenham paciência e repitam devagar.</p>
+                  <p>Defeitos? Sim: ficou óbvio! Mas também estão à disposição. Só acredito que, nesse momento, eles não vão me ajudar a conquistar a vaga.</p>
+                  <p>E eu quero muito essa vaga! Acredite!</p>
+                  <p>Antes de encerrar, será que posso substituir aquelas qualidades citadas por &quot;obstinada, honesta e escandalosamente cara-de-pau&quot;?</p>
+                  <p>Aguardo futuro e positivo contato. </p>
+                  <p>Bom, se não for possível, apenas não mandem me prender. Já será de bom tamanho.</p>
+                  <p>Grata!</p>
+                  <p>Jamile Ferreira</p>
+                  <p align="right"></p>
+<p align="right"></p>
+                  <p align="justify">&nbsp;</p>
+                    <p align="center"><a href="#topo">up!</a></p>
+                    <p align="center">&nbsp;</p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

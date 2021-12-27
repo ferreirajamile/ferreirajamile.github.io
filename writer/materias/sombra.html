@@ -1,0 +1,145 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <p><strong>Terra Sem Sombra</strong><br />
+                    <span class="fontsubtitulo">Revista Mais, 
+                      
+                      Edi&ccedil;&atilde;o 19 -
+                    Ano II</span><span class="menor"><br />
+                    <br />
+                    Jamile Ferreira</span>                  
+                    </p>
+</p>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p><strong><img src="../images/mais_m19a.gif" width="350" height="469" align="left" class="borderspaco" /></strong></p>
+                  <p>O Conservat&oacute;rio Municipal de Patos de Minas apresenta a s&eacute;rie de concertos   &ldquo;Terra sem Sombra&rdquo;. Nomes consagrados da m&uacute;sica erudita, nacional e   internacional, v&ecirc;m apresentando seu talento em Patos de Minas.<br />
+                  </p>
+<p>O objetivo do projeto &eacute; populariza&ccedil;&atilde;o da m&uacute;sica erudita, &quot;proporcionando &agrave;   comunidade um contato mais amplo&quot; com esse g&ecirc;nero musical. Para tal, foram   agendadas apresenta&ccedil;&otilde;es gratuitas no Teatro Municipal Le&atilde;o de Formosa e tamb&eacute;m   em escolas p&uacute;blicas da cidade.</p>
+                  <p>O ingresso para cada apresenta&ccedil;&atilde;o &eacute; trocado por 1kg de alimento n&atilde;o   perec&iacute;vel, como contra-partida social, que est&aacute; sendo executada em comunh&atilde;o com   a Secretaria de A&ccedil;&atilde;o Social do Munic&iacute;pio. Est&atilde;o sendo arrecadados cerca de 300kg   de alimentos por evento.</p>
+                  <p>Patos de Minas, j&aacute; conhecida como a Capital Nacional do Milho, poder&aacute; se   tornar, atrav&eacute;s dessas a&ccedil;&otilde;es, uma refer&ecirc;ncia na m&uacute;sica erudita. </p>
+                  <p>Criado em 1992, pelo Prefeito Ant&ocirc;nio do Valle, e em plena atividade desde   1994, no mandato do Prefeito Jarbas Cambraia, o conservat&oacute;rio oferece cursos de   musicaliza&ccedil;&atilde;o infantil, teoria musical, cursos para diversos instrumentos   musicais. Atualmente s&atilde;o cerca de 600 alunos matriculados, al&eacute;m de outros 600   alunos registrados nos projetos de extens&atilde;o na Funda&ccedil;&atilde;o PROMAM e CAIC. H&aacute;   trabalhos no Centro de Conviv&ecirc;ncia da 3&ordf; Idade e o Coral e Grupo de Seresta s&atilde;o   famosos pela qualidade.</p>
+                  <p>A agenda de apresenta&ccedil;&otilde;es &eacute; invej&aacute;vel: comemora&ccedil;&otilde;es, apresenta&ccedil;&otilde;es em   empresas, escolas e universidades, festivais, eventos beneficentes, entre   outros. A alta demanda confirma a qualidade do trabalho executado.</p>
+                  <p>Maria Coeli Am&acirc;ncio Afonso, atual Diretora do Conservat&oacute;rio, conta com uma   equipe de 22 professores verdadeiramente comprometidos com os trabalhos da   institui&ccedil;&atilde;o. Conta ainda com o interc&acirc;mbio de profissionais como M&iacute;riam Bastos,   de Belo Horizonte: supervisora de t&eacute;cnica pian&iacute;stica dos professores de piano e   respons&aacute;vel pela Dire&ccedil;&atilde;o Art&iacute;stica do projeto.</p>
+                  <p>Em entrevista &agrave; Revista Mais's, Maria Coeli diz que se preocupa com o   reconhecimento do conservat&oacute;rio como uma escola de m&uacute;sica de qualidade, mas   tamb&eacute;m como &oacute;rg&atilde;o de promo&ccedil;&atilde;o da cultura.</p>
+                  <p>&ldquo;A resposta ao est&aacute; sendo muito positiva. Muitas pessoas procuram ingressos   bem antes da data de apresenta&ccedil;&atilde;o. E ao final das apresenta&ccedil;&otilde;es, as pessoas   elogiam, querem ser avisadas dos pr&oacute;ximos eventos; ficamos entusiasmados&quot;,   cita.</p>
+                  <p>Goetz Hartmann e Mirta Herrera, em recital de violino e piano, iniciaram o   ciclo de apresenta&ccedil;&otilde;es em 30 de setembro - um sinal claro de que o projeto ia   ser pautado por apresenta&ccedil;&otilde;es, que por si s&oacute;, j&aacute; poderiam ser reconhecidas como   obras-primas. </p>
+                  <p>Em outubro, Ali&eacute;ksey Vianna, mineiro, &ldquo;um dos mais consagrados violonistas   brasileiros de sua gera&ccedil;&atilde;o&quot;, atrav&eacute;s de sua qualidade t&eacute;cnica, refinamento   musical e simpatia arrancou muitas palmas (e merecidas!) da plat&eacute;ia. E o   quinteto &quot;Sopros&quot; fez 2 apresenta&ccedil;&otilde;es: aproximadamente 500 crian&ccedil;as em cada uma   das escolas se empolgaram ao ouvir m&uacute;sicas - algumas conhecidas, como o tema da   Pantera Cor-de-Rosa e do S&iacute;tio do Pica-Pau Amarelo.</p>
+                  <p>Dia 25 de novembro, o &quot;Duo Burgani-Senise&quot; - recital de clarineta e piano.   Luiz Senise - pianista de destaque no cen&aacute;rio musical brasileiro, reconhecido   nacional e internacionalmente, e S&eacute;rgio Burgani - clarinetista premiado em   diversos concursos musicais . </p>
+                  <p>Dia 16 de Dezembro ser&aacute; a &uacute;ltima apresenta&ccedil;&atilde;o do ano, com o grupo &quot;Beag&aacute; Wind   Ensemble&quot;. E prometem fechar com chave de ouro: ser&atilde;o 12 m&uacute;sicos - instrumentos   de sopro, violoncelo e contra-baixo - apresentando obras eruditas na primeira   parte do espet&aacute;culo; na sequ&ecirc;ncia, can&ccedil;&otilde;es de Milton Nascimento, e no   encerramento, can&ccedil;&otilde;es de Natal. No Teatro Municipal.</p>
+                  <p>A dire&ccedil;&atilde;o do conservat&oacute;rio pretende realizar a 2&ordf; edi&ccedil;&atilde;o do projeto em 2007,   com apresenta&ccedil;&otilde;es ao longo do ano todo, al&eacute;m de projetos de m&uacute;sica popular. &quot;A   gente percebe que a m&uacute;sica de qualidade est&aacute; fazendo falta. Hoje em dia, algumas   m&uacute;sicas parecem 'descart&aacute;veis'. L&oacute;gico que tem m&uacute;sicas de qualidade sendo   produzidas no g&ecirc;nero popular, mas nossa preocupa&ccedil;&atilde;o, at&eacute; mesmo em rela&ccedil;&atilde;o &agrave;   pr&oacute;pria ess&ecirc;ncia da 'institui&ccedil;&atilde;o conservat&oacute;rio' &eacute; conservar e resgatar a m&uacute;sica   de qualidade - seja ela erudita ou popular&quot;, diz Celinha.</p>
+                  <p><img src="../images/mais_capa19.gif" width="150" height="202" align="right" class="borderspaco" />O Conservat&oacute;rio consequiu aprova&ccedil;&atilde;o do projeto na Lei de Incentivo &agrave; Cultura,   tanto do Estado - atrav&eacute;s da Secretaria de Cultura de Minas Gerais, quanto na   esfera federal, atrav&eacute;s do Minist&eacute;rio da Cultura, e est&aacute; captando empresas que   estejam interessadas em patrocinar esses eventos.</p>
+                  <p>Assim como os m&uacute;sicos convidados se apaixonam pela cidade, pela culin&aacute;ria   local, pela beleza da cidade, &eacute; vital que o empresariado local se &quot;apaixone&quot;   pelo investimento na cultura, que al&eacute;m do lucro financeiro diante do benef&iacute;cio   fiscal, proporciona alto lucro institucional de imagem.</p>
+                  <p>Para o evento do dia 16, &eacute; importante trocar o alimento n&atilde;o-perec&iacute;vel pelo   ingresso antes da data agendada. O Conservat&oacute;rio Municipal fica &agrave; Rua Doutor   Marcolino, 405.</p>
+                  <p>Nos encontramos l&aacute;!                </p>
+                </div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <p><span class="fonttitulo">Ford Fusion</span><br />
+                    <span class="fontsubtitulo">Revista Mais, 
+                    
+                    Edi&ccedil;&atilde;o 17 -
+                    Ano II</span><span class="menor"><br />
+                    <br />
+                    Jamile Ferreira</span>                  </p>
+<hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p align="center"><strong><img src="../images/mais_m17a.gif" width="350" height="135" class="bordasmall" /></strong><strong><img src="../images/mais_m17b.gif" width="350" height="148" class="bordasmall" /></strong></p>
+<p>Em an&uacute;ncio feito pelo presidente da subsidi&aacute;ria nacional da Ford do Brasil, Barry Engle, durante a coletiva de imprensa no Sal&atilde;o Detroit (EUA) no in&iacute;cio desse ano, a montadora passaria a importar do M&eacute;xico o Ford Fusion - promessa cumprida com sucesso.</p>
+                  <p>Este sedan come&ccedil;ou a ser comercializado ano passado nos Estados Unidos e Canad&aacute; e chegou ao Brasil em junho de 2006 com excelente desempenho de vendas, tornando-se l&iacute;der na categoria.</p>
+                  <p><img src="../images/mais_capa17.gif" width="150" height="207" align="right" class="borderspaco" />O Ford Fusion possui estilo moderno e sofisticado, com pacote dianteiro robusto e caracter&iacute;stico (grade do radiador cromada, com 3 barras horizontais). As lanternas traseiras seguem design triangular com l&acirc;mpadas vermelhas ao centro, moderno para a categoria.</p>
+                  <p>Possui acabamento interior requintado, ar-condicionado digital, dire&ccedil;&atilde;o hidr&aacute;ulica, acendimento autom&acirc;tico dos far&oacute;is, seis airbags, bancos com regulagem el&eacute;trica e revestimento em couro, freios ABS, computador de bordo, c&acirc;mbio autom&aacute;tico, toca-CD com leitor de MP3 e capacidade para 6 pdiscos e controlador de velocidade. Como equipamento opcional, teto solar panor&acirc;mico.</p>
+<p>Vale a pena conferir esse lan&ccedil;amento da Ford.</p>
+                  <p>Maiores informa&ccedil;&otilde;es no website: www.fordvehicles.com/cars/fusion</p>
+                  <p>&nbsp;</p>
+</div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

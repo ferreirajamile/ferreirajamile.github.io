@@ -1,0 +1,303 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/02contos.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <strong>uma avenida no inverno</strong><br />
+                  [conto]<br />
+                  antologia 
+                    de contos de autores contempor&acirc;neos<br />
+                  11&deg; volume - setembro/2005<br />
+                  c&acirc;mara brasileira de jovens escritores - rio de janeiro/rj                   <br />
+                  <span class="menor"><br />
+                  Jamile Ferreira<br />
+                  (&quot;jamille nasc&quot;, em Patos de Minas/MG 2005)
+                  </span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="center">
+                   <img src="../images/afonsopena.gif" alt="Imagem de Eri Gomes" width="280" height="266" align="left" class="borderspaco" />
+                   <p align="justify">&quot;foi, sem d&uacute;vida, 
+                      a melhor pe&ccedil;a teatral que j&aacute; havia 
+                      visto em toda a minha vida. e ao mesmo tempo, 
+                      o melhor presente de anivers&aacute;rio que j&aacute; 
+                     ganhei.</p>
+                    <p align="justify">                      tinha acabado de voltar da minha 
+                      fuga de mi mesma; mal chego, e ele me convida 
+                      para assistir uma pe&ccedil;a de teatro como presente 
+                      do meu anivers&aacute;rio &#8211; mesma data que 
+                      h&aacute; poucos dias tinha tentado tirar da minha 
+                      mem&oacute;ria pelo simples fato de n&atilde;o 
+                      ter muito o que comemorar.</p>
+                    <p align="justify">relembrando desse dia, um sorriso 
+                      aberto e est&uacute;pido se prega no meu rosto 
+                      sem nenhuma explica&ccedil;&atilde;o; voc&ecirc; 
+                      n&atilde;o adora esse sorriso imbecil e a facilidade 
+                      com que ele surge, te condenando a aceitar que 
+                      voc&ecirc; &eacute; um imbecil e n&atilde;o pode 
+                      fazer nada contra isso?</p>
+                    <p align="justify">a caminho do teatro, o metr&ocirc; 
+                      atrasa, quase sou assaltada, por minutos n&atilde;o 
+                      dou de cara com a portaria fechada, minha maquiagem 
+                      quase vai pras cucuias, meu cabelo nem comento, 
+                      sinto que sou a mulher mais f&uacute;til e desnecess&aacute;ria 
+                      por me preocupar com maquiagens e cabelos, mas 
+                      tudo se dissipou no limbo quando ele apareceu 
+                      na recep&ccedil;&atilde;o do pr&eacute;dio, com 
+                      aquela est&uacute;pida latinha de cerveja na m&atilde;o 
+                      direita.</p>
+                    <p align="justify">a primeira vez que o vi, foi 
+                      num festival de m&uacute;sica alternativa. ele 
+                      veio de tr&aacute;s do palco, andando devagar, 
+                      como sempre, meio que olhando pro ch&atilde;o, 
+                      com uma camiseta vermelha, uma credencial idiota 
+                      escrita &quot;produ&ccedil;&atilde;o&quot; e a 
+                      eterna latinha de cerveja na m&atilde;o esquerda... 
+                      eu prefiro quando ele a carrega na m&atilde;o 
+                      esquerda...</p>
+                    <p align="justify">que tipo de pessoa repara em 
+                      que m&atilde;o mais gosta que outra pessoa leve 
+                      sua latinha de cerveja?</p>
+                    <p align="justify">acho que o mesmo tipo de pessoa 
+                      que se apaixona pelo vento frio atrav&eacute;s 
+                      da janela do carro, enquanto repara na paleta 
+                      de cores em tons de marrom e verde das montanhas 
+                      pequenas da estrada a caminho de lavras novas, 
+                      para onde j&aacute; viajamos, sabendo ser esse 
+                      um dos momentos mais gostosos da sua vida.</p>
+                    <p align="justify">eu, esse tipo de pessoa, fiquei 
+                      ali, com aquele sorriso imbecil na cara, feliz 
+                      por ver de novo aquela latinha de cerveja. </p>
+                    <p align="justify">fomos andando em dire&ccedil;&atilde;o 
+                      ao teatro. a casa dele era a poucos quarteir&otilde;es 
+                      e a noite estava fria, meio &uacute;mida. nada 
+                      justificava pegar um carro e perder aquele clima 
+                      ameno, isso na minha dimens&atilde;o - ele provavelmente 
+                      estava apenas morrendo de pregui&ccedil;a de dirigir!</p>
+                    <p align="justify">ao atravessar a rua, precisamos 
+                      apertar o passo em fun&ccedil;&atilde;o dos carros 
+                      e por uma fra&ccedil;&atilde;o de segundos, ele 
+                      parou na minha frente e me deu o beijo mais inesperado 
+                      e inteiro que algu&eacute;m pode dar, enquanto 
+                      tocava echo and the bunnymen &#8211; the killing 
+                      moon, cortada abruptamente por algumas buzinas 
+                      de motoristas alheios &agrave; import&acirc;ncia 
+                      dos beijos inesperados.</p>
+                    <p align="justify">mas ele n&atilde;o &eacute; do 
+                      tipo de pessoa que tem esses arroubos, e eu n&atilde;o 
+                      sou o tipo de pessoa com quem acontece esses arroubos!</p>
+                    <p align="justify">logo, na realidade, a &uacute;nica 
+                      coisa que aconteceu foram dois amigos atravessando 
+                      uma rua, enquanto ela reparava a presen&ccedil;a 
+                      insignificante da lua no c&eacute;u, dispersa 
+                      &agrave; vinda, um tanto quanto abrupta, de um 
+                      &ocirc;nibus. e ele, preocupado com sua latinha 
+                      ficando vazia mais rapidamente do que ele esperava, 
+                      enquanto notava que talvez sua amiga seja atropelada 
+                      por um &ocirc;nibus!</p>
+                    <p align="justify">pegamos a fila para entrar no 
+                      teatro e ficamos ali: eu, com medo de olhar para 
+                      aqueles dois enormes olhos azuis e acabar morrendo 
+                      afogada neles, e ele tentando tornar o ar entre 
+                      n&oacute;s um pouco mais f&aacute;cil de ser respirado.</p>
+                    <p align="justify">de repente, a &aacute;rvore que 
+                      nos cobria come&ccedil;ou a soltar um monte de 
+                      &#8220;microflores&#8221;, fazendo chover sob 
+                      nossas cabe&ccedil;as. tanto tempo tentando deixar 
+                      o meu cabelo menos pat&eacute;tico do que ele 
+                      se apresenta no trivial e agora aquelas flores 
+                      irritantes!</p>
+                    <p align="justify">mentira! aquela situa&ccedil;&atilde;o 
+                      era &oacute;tima, pois al&eacute;m de aliviar 
+                      a tens&atilde;o tornando tudo peculiar, me deu 
+                      coragem de olhar pra ele, com a desculpa de ver 
+                      se ele estava t&atilde;o ou mais inundado de flores 
+                      do que eu!</p>
+                    <p align="justify">enquanto desgra&ccedil;&aacute;vamos 
+                      e r&iacute;amos da exist&ecirc;ncia daquelas fores, 
+                      eu comecei a reparar um casal na nossa frente: 
+                      ela, com movimentos muito delicados, sorria e 
+                      tirava as flores que estavam sobre a su&eacute;ter 
+                      de l&atilde; dele; e ele, tirava com muito cuidado, 
+                      algumas flores do cabelo dela, tudo muito natural. 
+                      parecia um amor calmo, at&eacute; t&iacute;mido, 
+                      talvez de pouca idade, mas m&uacute;tuo.</p>
+                    <p align="justify">senti inveja daquele casal. eu 
+                      nunca tive coragem sequer de olhar para ele, quanto 
+                      mais para buscar aquele grau de intimidade. </p>
+                    <p align="justify">entramos no teatro, sentamos 
+                      e as luzes apagaram. e nesse exato momento descobri 
+                      que ele era o detentor do que considero &#8220;o 
+                      melhor lugar no mundo inteiro&#8221;. ali, do 
+                      lado dele, sem precisar falar nada, sem precisar 
+                      me preocupar com perfumes ou presen&ccedil;as, 
+                      percebi que era o lugar que sempre quis estar: 
+                      lugar onde o sil&ecirc;ncio &eacute; confort&aacute;vel, 
+                      onde me sentia salva da necessidade de representar. 
+                      eu sabia que ele estava ali e n&atilde;o sentia 
+                      necessidade de saber mais nada.</p>
+                    <p align="justify">e por horas e horas a fio, vendo 
+                      atua&ccedil;&otilde;es, identificando com os personagens, 
+                      suas falas e experi&ecirc;ncias, ouvindo a trilha 
+                      sonora que era a mesma dos meus acontecimentos, 
+                      fiquei completamente absorta por ter descoberto 
+                      o meu melhor lugar no mundo inteiro!</p>
+                    <p align="center"><img src="../images/teatro.gif" width="240" height="173" align="right" class="borderspaco" /></p>
+                    <p align="justify">fim da pe&ccedil;a. a sensatez 
+                      manda ir embora para casa, mas como &eacute; dif&iacute;cil 
+                      sair do lugar que se adora...</p>
+                    <p align="justify">eu tinha passado os piores 9 
+                      dias da minha vida, numa cidade sem nenhum amigo, 
+                      mergulhada no passado familiar que me d&oacute;i 
+                      muito at&eacute; hoje, tentando esquecer o quanto 
+                      eu considerava vital a presen&ccedil;a dele no 
+                      meu cotidiano, sem sucesso por sinal. e agora, 
+                      estava ali, sabendo que o melhor era simplesmente 
+                      ir embora, mas esperando que ele convidasse pra 
+                      qualquer coisa, o que aconteceu! seu apartamento, 
+                      comer pizza!</p>
+                    <p align="justify">enquanto a pizza n&atilde;o chegava, 
+                      fui para janela. seu apartamento, na principal 
+                      avenida da cidade, d&eacute;cimo quinto andar, 
+                      era um verdadeiro mart&iacute;rio. toda vez que 
+                      precisava ir ao centro da cidade, a primeira imagem 
+                      era aquele pr&eacute;dio que nunca significou 
+                      absolutamente nada at&eacute; o advento da sua 
+                      exist&ecirc;ncia naquele festival!</p>
+                    <p align="justify">quantas e quantas vezes desci 
+                      aquela avenida, sem a menor necessidade de passar 
+                      por ali, olhando pra cima, tentando adivinhar 
+                      qual era a janela certa e o que ele estaria fazendo 
+                      naquele momento.</p>
+                    <p align="justify">e mais uma vez eu estava l&aacute; 
+                      em cima, olhando aquela avenida, relembrando de 
+                      todos os buracos nos quais tropecei, querendo 
+                      que, numa dessas coincid&ecirc;ncias, ele estivesse 
+                      ali na janela, velando meus passos.</p>
+                    <p align="justify">e naquela noite, a avenida estava 
+                      diferente: azulada, brilhante, especial. como 
+                      tive raiva daquela avenida: como ela podia fazer 
+                      aquilo comigo? era como se ela tivesse tirado 
+                      o brilho de mim. naquela noite, eu estava constrangida, 
+                      pequena, com medo dos olhos dele, eu havia perdido 
+                      o brilho, a seguran&ccedil;a, eu n&atilde;o me 
+                      sentia mais especial, se &eacute; que um dia eu 
+                      fui.</p>
+                  <p align="justify"><a href="avenida1.html" target="_blank"><img src="../images/avenidathumb01.gif" width="137" height="200" align="left" class="borderspaco" /></a>e olhando pra avenida, acabara 
+                      de descobrir para onde meu brilho havia ido e 
+                      fiquei com mais raiva ainda quando ele chegou 
+                      perto de mim e disse que a avenida ficava diferente 
+                      no inverno, mais azul, mais brilhante, especial.</p>
+                    <p align="justify">at&eacute; hoje espero que ela 
+                      devolva o meu brilho.</p>
+                    <p align="justify">comemos, conversamos, rimos, 
+                      ouvimos aquela m&uacute;sica. como ele p&ocirc;de 
+                      colocar aquela m&uacute;sica? ele n&atilde;o sabia, 
+                      mas eu ainda estava com as feridas abertas. simplesmente 
+                      n&atilde;o consegui ficar l&aacute;. levantei 
+                      de repente e fui embora. </p>
+                    <p align="justify">enquanto andava pela avenida, 
+                      desejei mais que tudo no mundo que ele estivesse 
+                      naquela janela, mas essas coisas s&oacute; acontecem 
+                      na minha dimens&atilde;o e eu ainda n&atilde;o 
+                      descobri como viver nela.&quot;</p>
+                    <p align="center"><a href="#topo">up!<br>
+                    </a>                </p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+    </body>
+</html>
