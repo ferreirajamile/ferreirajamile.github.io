@@ -158,6 +158,7 @@ a [class*=" icon-"] {
 .dropdown-submenu:hover > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"] {
   background-image: none;
+  text-align:left
 }
 
 .btn [class^="icon-"].icon-large,
