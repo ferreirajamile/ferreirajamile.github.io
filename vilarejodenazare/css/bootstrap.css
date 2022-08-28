@@ -1,10 +1,5 @@
 @charset "UTF-8";
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 html {
   font-family: serif;
   -ms-text-size-adjust: 100%;
@@ -72,7 +67,7 @@ dfn {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0.67em 0;
 }
 
@@ -424,8 +419,8 @@ hr {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, h7
+.h1, .h2, .h3, .h4, .h5, .h6, h7 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -437,14 +432,17 @@ h2 .small, h3 small,
 h3 .small, h4 small,
 h4 .small, h5 small,
 h5 .small, h6 small,
-h6 .small,
+h6 .small, h7 small,
+h7 .small
 .h1 small,
 .h1 .small, .h2 small,
 .h2 .small, .h3 small,
 .h3 .small, .h4 small,
 .h4 .small, .h5 small,
 .h5 .small, .h6 small,
-.h6 .small {
+.h6 .small , h7.small,
+.h7 .small
+{
   font-weight: normal;
   line-height: 1;
   color: #777777;
@@ -470,7 +468,9 @@ h3 .small, .h3 small,
 
 h4, .h4,
 h5, .h5,
-h6, .h6 {
+h6, .h6 
+h7, .h7 
+{
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -510,6 +510,10 @@ h6, .h6 {
   font-size: 16px;
 }
 
+h7, .h7 {
+  font-size: 28px;
+}
+
 p {
   margin: 0 0 10px;
 }
@@ -517,7 +521,7 @@ p {
 .lead {
   margin-bottom: 20px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
@@ -1760,7 +1764,7 @@ pre code {
   .col-lg-offset-12 {
     margin-left: 100%;
   }
-}
+
 table {
   background-color: transparent;
 }
@@ -2593,7 +2597,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -2666,12 +2670,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #000;
   background-color: #337ab7;
   border-color: #2e6da4;
 }
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
+  color: #000;
   background-color: #286090;
   border-color: #122b40;
 }
@@ -2681,12 +2685,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-color: #204d74;
 }
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  color: #fff;
+  color: #000;
   background-color: #286090;
   border-color: #204d74;
 }
 .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
-  color: #fff;
+  color: #000;
   background-color: #204d74;
   border-color: #122b40;
 }
