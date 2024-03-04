@@ -1,3 +1,0 @@
-[12-Jun-2020 12:32:57 America/Sao_Paulo] PHP Notice:  Undefined index: name in /home/ferreir1/public_html/mail-it.php on line 6
-[12-Jun-2020 12:32:57 America/Sao_Paulo] PHP Notice:  Undefined index: email in /home/ferreir1/public_html/mail-it.php on line 7
-[12-Jun-2020 12:32:57 America/Sao_Paulo] PHP Notice:  Undefined index: message in /home/ferreir1/public_html/mail-it.php on line 8
