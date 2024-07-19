@@ -32,25 +32,37 @@
 	  <div class="sixteen columns">
 			<div class="logo"></div>      
 			<ul class="slimmenu">
-				<li><a href="index.html" class="animsition-link">Currículo</a></li>
-                <li><a href="release.html" class="animsition-link">Release</a>
+				<li><a href="index.html" class="animsition-link">Home</a></li>
+				<li><a href="release.html" class="animsition-link">Release</a></li>
+				<li><a href="curriculo.html" class="animsition-link">Currículo</a></li>
+<!--				<li><a href="release.html" class="animsition-link">Release</a>
 					<ul class="submenu-back">
-	                <li><a href="hobby.html" class="animsition-link">Hobbies</a></li>
-                	</ul></li>
-                <li><a href="portfolio.html" class="animsition-link">Portfolio</a>
-   					<ul class="submenu-back">
-			    <li><a href="destaque.html" class="animsition-link">Destaque</a></li>
-  				<li><a href="pdfs.html" class="animsition-link">Publicações</a></li>
-           		<li><a href="projetos.html" class="animsition-link">Projetos</a></li>
-                	</ul></li>
-                <li><a href="contact.html" class="active-menu animsition-link">Contato</a></li>
+                <li><a href="curriculo/index.html" class="animsition-link">Currículo</a></li>
+                <li><a href="curriculo/hobby.html" class="animsition-link">Hobbies</a></li>
+                </ul></li>
+-->                
+                <li><a href="servicos.html" class="animsition-link">Serviços</a></li>
+			    <li><a href="portfolio.html" class="animsition-link">Portfolio</a>
+					<ul class="submenu-back">
+			 			<li><a href="portfolio.html" class="animsition-link">Visão Geral</a>
+			    		<li><a href="destaque.html" class="animsition-link">Destaques</a></li>
+						<!--<li><a href="https://ferreirajamilebr.wordpress.com/" target="_blank" class="animsition-link">Clientes</a></li>
+                        clientes de 1994 até a data atual-->
+           				<li><a href="pdfs.html" class="animsition-link">Publicações</a></li>
+                        <!-- para links no yumpu-->
+           				<!-- <li><a href="https://jamileferreira.home.blog/category/materias/" class="animsition-link">Matérias</a></li>
+                        postagens realizadas no blog-->
+                		<li><a href="projetos.html" class="animsition-link">Projetos</a></li>
+					</ul></li>
+                <!--<li><a href="https://jamileferreira.home.blog/" class="animsition-link">Blog</a></li>-->
+				<li><a href="contact.html" class="active-menu animsition-link">Contato</a></li>
+			    <li><a href="lgpd.html" class="animsition-link">LGPD</a></li>
 			</ul>
             </div>
         </div>
     </div>
 </div>
 </div>
-
 		
 	<section class="cd-section">
 		<div class="cd-block">
@@ -62,37 +74,136 @@
 		</div>
 	</section>
 
-<section class="section image6-background padding-top-bottom shadow-sec" id="scroll-link">
+<!--<section class="section white-background padding-top-bottom shadow-sec" id="scroll-link">
+    <section class="section parallaxrose padding-top-bottom shadow-sec" id="scroll-link">-->
+    <section class="section image6-background padding-top-bottom shadow-sec" id="scroll-link">
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScn6fq-ZkUoshOhSRJeLnuwVKPOzdrDjpevalEBAbqObBiGCQ/viewform?embedded=true" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
+<!--<iframe src="https://www.instagram.com/jamile.blog/" width="800" height="1000" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>-->
+
 </section>
 
+<!--
+<section class="section white-background padding-top-bottom shadow-sec" id="scroll-link">
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="section-header-text">
+					<h4>Entre em contato<span>.</span></h4> 
+					<div class="line-header"></div>
+				</div>
+			</div>
+				
+				<div class="clear"></div>
+				<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+					<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="name"> 
+							<span class="error" id="err-name">Por favor, digite seu nome</span>
+						</label>
+						<input name="name" id="name" type="text"   placeholder="Seu nome:"/>
+					</div>
+					<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="email"> 
+							<span class="error" id="err-email">Por favor, digite seu e-mail</span>
+							<span class="error" id="err-emailvld">esse e-mail não tem um formato válido</span>
+						</label>
+						<input name="email" id="email" type="text"  placeholder="Seu e-mail:"/>
+					</div>
+					<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="message"></label>
+						<textarea name="message" id="message" placeholder="Escreva sua mensagem:"></textarea>
+					</div>
+					<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<div id="button-con"><button class="send_message" id="send"><span data-hover="submit">Enviar</span></button></div>					
+					</div>
+					<div class="clear"></div>	
+					<div class="error text-align-center" id="err-form">Há um problema de validação no formulário. Por favor, verifique. Obrigada!</div>
+					<div class="error text-align-center" id="err-timedout">A conexão com o servidor foi encerrada.</div>
+					<div class="error" id="err-state"></div>
+				</form>	
+					
+				<div class="clear"></div>
+				<div id="ajaxsuccess">Sua mensagem foi enviada com sucesso. Obrigada!</div>
+				<div class="clear"></div>
+					
+		</div>
+        
+        
+	</section>
+    
 
+<section class="section parallax padding-center">
+		<div class="container">	
+			<div class="five columns">
+<div class="fb-page" data-href="https://www.facebook.com/soumktbrasil" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/soumktbrasil" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/soumktbrasil">Sou MKT</a></blockquote></div>
+
+</div>
+			<div class="five columns">
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-0d46ed80-8356-4dd8-b151-6d36a0f5b1dc"></div>
+</div>
+			<div class="five columns">
+ajsdlkjlasdf
+</div>
+
+</div>
+</section>
+
+-->
 
 	<section class="section white-background padding-centerg shadow-sec">
 		<div class="container">
         
-			<div class="five columns">
+        	<div class="three columns">
+				<div class="contact-details">
+					<p><span>&#xf003;</span> E-mail</p> 
+                    <h6><a href="mailto:ferreirajamile.bhz@gmail.com?subject=Contato">ferreirajamile.bhz@gmail.com</a></h6>
+				</div>
+			</div>
+
+        
+			<div class="three columns">
 				<div class="contact-details">
 					<p><span>&#xf095;</span> Whatsapp</p> 
-                    <h6><a href="https://api.whatsapp.com/send?phone=5531998449024&text=Ol%C3%A1!%20Envie%20sua%20mensagem%20e%20responderei%20em%20breve.%20Jamile" target="_blank">+55 31 99844-9024</a></h6>
+                    <h6><a href="https://api.whatsapp.com/send?phone=5531991931303&text=Ol%C3%A1!%20Envie%20sua%20mensagem%20e%20responderei%20em%20breve.%20Jamile" target="_blank">+55 31 99193-1303</a></h6>
 				</div>
 			</div>
             
-			<div class="five columns">
+			<div class="three columns">
 				<div class="contact-details">
 					<p><span>&#xf082;</span> Facebook</p> 
 					<h6><a href= "https://www.facebook.com/ferreirajamile.bhz" target="_blank">/ferreirajamile.bhz</a></h6>
 				</div>
 			</div>
 			
-            <div class="five columns">
+            <div class="three columns">
 				<div class="contact-details">
 					<p><span>&#xf16d;</span> Instagram</p>
-					<h6><a href= "https://www.instagram.com/bibliojamile" target="_blank">@bibliojamile</a></h6>
+					<h6><a href= "https://www.instagram.com/jamile.blog" target="_blank">@jamile.blog</a></h6>
 				</div>
 			</div>
+            
+            <div class="three columns">
+				<div class="contact-details">
+					<p><span>&#xf086;</span> Chat Online</p>
+					<h6><a href= "https://jivo.chat/UU7JUkUUuK" target="_blank">clique aqui!</a></h6>
+				</div>
+			</div>
+            
+
+<!--			<div class="four columns">
+				<div class="contact-details">
+					<p><span>&#xf174;</span> Twitter</p>
+					<h6><a href= "https://twitter.com/ferreirajamilec" target="_blank">@ferreirajamilec</a></h6>
+				</div>
+			</div>
+			<div class="five columns">
+				<div class="contact-details">
+					<p><span>&#xf08c;</span> Linkedin</p>
+					<h6><a href="https://www.linkedin.com/in/ferreirajamilec/" target="_blank">/ferreirajamilec</a></h6>
+				</div>
+			</div>
+            -->
 		</div>
 	</section>
 
@@ -101,7 +212,7 @@
 		<div class="container">	
 			<div class="sixteen columns">
 				<div class="section-header-text">
-					<h4>Endereço<span>.</span></h4> 
+					<h4>Endereço em Belo Horizonte/MG<span>.</span></h4> 
 					<br><div class="line-header"></div><br>
 				</div>
 <div align="center"><strong>Rua Professor Costa Chiabi, nº 280 apt 101 - Bairro Cidade Nova</strong></div>
@@ -118,15 +229,39 @@
 			</div>	
 	</section>
 
-  	
+<!--
+	<section class="section white-background padding-centerg shadow-sec">
+		<div class="container">
+        
+			<div class="eight columns">
+				<div class="contact-details">
+<iframe src="https://www.instagram.com/jamile.blog/" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+            
+			<div class="eight columns">
+				<div class="contact-details">
+<iframe src="https://www.facebook.com/ferreirajamile.bhz" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+			
+            
+		</div>
+	</section>--!>
+    
+    	
 <footer class="footer">
 	<div class="container">
 		<div class="sixteen columns">
 			<div class="footer-social">
+<!--		<a href="https://twitter.com/ferreirajamilec" target="_blank">twitter</a>
+			<a href="https://www.linkedin.com/in/ferreirajamilec/" target="_blank">linkedin</a>-->
 			<a href="mailto:ferreirajamile.bhz@gmail.com?&subject=Contato%20via%20website" target="_blank">e-mail</a>
-			<a href="https://api.whatsapp.com/send?phone=5531998449024&text=Ol%C3%A1!%20Envie%20sua%20mensagem%20e%20responderei%20em%20breve.%20Jamile" target="_blank">whatsapp</a>
+<!--		<a href="https://t.me/[ferreirajamile]" target="_blank">telegram</a>-->
+			<a href="https://api.whatsapp.com/send?phone=5531991931303&text=Ol%C3%A1!%20Envie%20sua%20mensagem%20e%20responderei%20em%20breve.%20Jamile" target="_blank">whatsapp</a>
 			<a href="https://www.facebook.com/ferreirajamile.bhz" target="_blank">facebook</a>
-			<a href="https://www.instagram.com/bibliojamile" target="_blank">instagram</a>
+			<a href="https://www.instagram.com/jamile.blog" target="_blank">instagram</a>
+			<a href="https://jivo.chat/UU7JUkUUuK" target="_blank">chat online</a>
 			</div>
 		</div>
 	</div>
