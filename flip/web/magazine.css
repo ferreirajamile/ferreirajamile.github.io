@@ -1,0 +1,50 @@
+#magazineViewButtonContainer {
+  display: none;
+}
+
+#magazineViewButtonContainer button span,
+#magazineViewButtonContainer .toolbarButton {
+  width: auto;
+  height: auto;
+  margin-left: -50%;
+}
+
+#magazineContainer {
+  text-align: center;
+  overflow: hidden;
+}
+
+#magazine {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto !important;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+#magazine .page {
+  background-color: #fff;
+}
+
+#mainContainer {
+  overflow: hidden;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
