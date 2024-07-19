@@ -30,9 +30,7 @@ body.lb-disable-scrolling {
   max-width: inherit;
   max-height: none;
   border-radius: 3px;
-
-  /* Image border */
-  border: 4px solid black;
+  border: 5px solid #c5a28c;
 }
 
 .lightbox a img {
@@ -164,8 +162,8 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 12px;
+  font-weight: lighter ;
   line-height: 1em;
 }
 
