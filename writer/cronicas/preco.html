@@ -1,0 +1,161 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/02acronicas.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <strong>o preço</strong><br />
+                  <span class="menor"><br />
+                  Jamile Ferreira</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p>Domingo, debaixo do cobertor, lendo e ouvindo 
+                                    Sam Cooke (algu&eacute;m ainda ouve Sam Cooke?), 
+                                    senti que aquele era um dos raros momentos 
+                                    que n&atilde;o tem pre&ccedil;o. Logo, lembrei 
+                                    da campanha publicit&aacute;ria da Credicard 
+                                    Mastercard.<br />
+                                    <br />
+Uma boa risada com os amigos, respirar o ar 
+                                    de outra cidade, arrumar-se para uma balada 
+                                    louca no fim de semana, um beijinho de esquim&oacute; 
+                                    no primeiro encontro, cinema com pipoca e 
+                                    coca-cola, acordar afobada e lembrar que ainda 
+                                    &eacute; domingo (UFA!), achar dinheiro no 
+                                    bolso da jaqueta, descobrir que ainda tem 
+                                    um cigarro no ma&ccedil;o (acredite... para 
+                                    um fumante, isso &eacute; o para&iacute;so!), 
+                                    morder o sandu&iacute;che sem vergonha de 
+                  babar o catchup...<br />
+                                    <br />
+Claro que, falar que &quot;n&atilde;o tem 
+                                    pre&ccedil;o&quot;, &eacute; um exagero: um 
+                                    bom sandu&iacute;che n&atilde;o sai por menos 
+                  de R$ 5,00!</p>
+                  <p>Ele passou na minha casa. Nenhum dos dois tinha absolutamente nada para fazer, pelo menos não durante aquelas duas próximas horas. Entre um lugar e outro, cabem muitos momentos de felicidade e muitas palavras reviradas lá de dentro, e o tempo faz, finalmente, uma pausa.</p>
+                  <p>Pelo dali não havia nenhum lugar convidativo, ou mesmo que tivesse uma mesa com cadeiras para duas pessoas gastarem a infinidade de duas horas numa conversa sem qualquer objetivo... por que TUDO tem que ter um significado, um propósito, uma razão? Um sanduíche é um sanduíche, e basta por si mesmo. Se é possível sorver a simplicidade das coisas sendo o que elas são, não será isso felicidade?</p>
+                  <p>Sorver um sorvete cairia bem. Estava muito calor. Busca não muito alucinada por um lugar à sentar, porque bom mesmo é quase bater o carro enquanto dá uma boa risada, contando um caso bastante estapafúrdio, que vai se diluir ao longo das duas horas.</p>
+                  <p>Uma carrocinha de cachorro quente na rua! Nada poderia ser melhor do que uma carrocinha de cachorro quente no meio da rua, naquele momento. E a felicidade de um cachorro quente &quot;com tudo&quot; (e tudo significa milho verde, batata palha, casa, comida e roupa lavada!) não pode ser medida numa bocada. Até porque, toda bocada em cachorro quente é algo que não se pode medir - algo cairá pela direita, e também pelo fundo, isso se a salsicha não escorregar mais pra lá, e houver a necessidade de alguém ampará-la. Mediante um sorriso, porque o glamour foi embora na hora que se comemora a existência de uma carrocinha de comida.<br />
+                  </p>
+                  <p>Sanduíche, casos, confidências, descobertas, &quot;jura?&quot;, &quot;cê tá brincando que ele falou isso?&quot;, e o tempo corre solto. Na verdade, o tempo corre porque fica extremamente chateado por não receber a atenção das pessoas. </p>
+                  <p>Mas diante a felicidade de uma prosa sem função, um cachorro quente com bacon, e um refrigerante meio sem graça mas de graça, alguém ai ainda se lembra do tempo?</p>
+                  <p>Pois não é que o tempo se fez presente, e acabou?</p>
+                  <p>O tempo faz dessas coisas. E não há o que negociar. Ele não aceita subornos. De nenhum tipo. Isso, mastercard não paga, e particularmente fico muito chateada.</p>
+                  <p>Hora de pagar os R$5,00. Hora de voltar pro carro. Hora de olhar o relógio, hora de chegar na porta de casa, hora de despedir, hora de sentir uma dorzinha no coração. É hora.</p>
+                  <p> Mas pensar nessas horas como &quot;sutis 
+                    pedacinhos de perfei&ccedil;&atilde;o&quot; 
+                    deixa a vida da gente menos miser&aacute;vel. 
+                    Talvez a felicidade seja o somat&oacute;rio 
+                    dos pequenos acontecimentos que escapam da 
+                    mediocridade ou que apenas se esquecem de 
+                    ser tachados como tal. <br />
+                    <br />
+                    Não é necessário nada de especial, um evento inusitado, um susto no caminho, uma surpresa infartante... basta haver duas pessoas que se gostam, buscando uma carrocinha de cachorro quente.
+<br />
+                  </p>
+                  <p>                    O sanduíche até tem, mas Sam Cooke 
+                    cantando &quot;Cupid&quot;... 
+                    isso n&atilde;o tem pre&ccedil;o!<br />
+                    <br />
+                    ... em prol de uma vida que não precisa de preço.                  </p>
+                  <p align="center"><a href="#topo">up!</a></p>
+                  <p align="center"><br>
+                  </p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>
