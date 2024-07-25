@@ -1,0 +1,129 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <p><span class="fonttitulo">Obriga&ccedil;&atilde;o Legal <em>versus</em> Prefer&ecirc;ncia Nacional</span><br />
+                    <span class="fontsubtitulo">Revista Mais, 
+                    
+                    Edi&ccedil;&atilde;o 12 -
+                    Ano I</span><span class="menor"><br />
+                    <br />
+                    Jamile Ferreira</span>                  </p>
+<hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p><strong><img src="../images/mais_m12.gif" width="350" height="136" align="left" class="borderspaco" /></strong>Em agosto de 2005, o prefeito da cidade de Cachoeira do Sul/RS, Sr. Marlon Santos, determinou que os funcion&aacute;rios que possuem cargos de confian&ccedil;a, devem ler, obrigatoriamente, um livro por m&ecirc;s. E, para comprovar que leram, devem apresentar um resumo ou a ficha de leitura da obra. At&eacute; inc&iacute;o de janeiro de 2006, 170 trabalhos j&aacute; foram apresentados. E o servidor que n&atilde;o cumprir a norma, poder&aacute; ser demitido.</p>
+<p>Em entrevista ao Jornal &ldquo;O Globo&rdquo;, o prefeito diz que &ldquo;o objetivo da norma &eacute; tornar o servidor um indiv&iacute;duo mais intelectualizado e com uma capacidade maior de racioc&iacute;nio&rdquo;. </p>
+                  <p><img src="../images/mais_capa12.gif" width="150" height="206" align="right" class="borderspaco" />Essa atividade &eacute; aplicada desde o ensino fundamental nas escolas, tanto p&uacute;blicas, quanto privadas. E n&atilde;o havia not&iacute;cia de nenhuma lei que obrigasse o cidad&atilde;o a pratic&aacute;-la, at&eacute; ent&atilde;o!</p>
+                  <p align="left">Triste &eacute; o pa&iacute;s que precisa sancionar leis para obrigar as pessoas a se aprimorar. O crescimento intelectual deveria ser uma necessidade natural - afinal, parte-se do presuposto de que a ra&ccedil;a humana veio da evolu&ccedil;&atilde;o do racioc&iacute;nio l&oacute;gico!</p>
+                  <p>Chegamos ao ponto de transformar a leitura numa obriga&ccedil;&atilde;o legal, e n&atilde;o num prazer. Chegamos ao ponto, portanto, de reavaliar nossos conceitos - o que tem maior valor: a qualidade do relacionamento interpessoal, o conhecimento, a cultura, a boa - e velha - educa&ccedil;&atilde;o ou a dimens&atilde;o da &ldquo;prefer&ecirc;ncia nacional&rdquo; nos bailes &ldquo;funk&rdquo; e bandas de ax&eacute;? H&aacute; algo de errado no reino, n&atilde;o acha?</p>
+                  <p>Um abra&ccedil;o, at&eacute; a pr&oacute;xima e minha sugest&atilde;o de leitura para janeiro &eacute; &ldquo;Mem&oacute;rias de Minhas Putas Tristes&rdquo;, de Gabriel Garcia Marquez. N&atilde;o se intimidem pelo t&iacute;tulo!!! Boa leitura!</p>
+                </div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

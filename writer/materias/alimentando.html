@@ -1,0 +1,130 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <strong>Alimentando a Litratura</strong><br />
+                  <span class="fontsubtitulo">Revista Mais, 
+Edi&ccedil;&atilde;o 7 - 
+Ano I </span><span class="menor"><br />
+                  <br />
+                  Jamile Ferreira</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p align="left"><img src="../images/mais_m07.gif" width="350" height="184" align="left" class="borderspaco" />Quando nos perguntam qual a a&ccedil;&atilde;o pol&iacute;tica adequada para &ldquo;consertar o Brasil&rdquo;   com certeza a educa&ccedil;&atilde;o &eacute; uma das respostas. Nenhum povo &eacute; subjugado se tem   acesso &agrave; maior riqueza que um ser humano pode ter (n&atilde;o, n&atilde;o &eacute; mensal&atilde;o!): a   educa&ccedil;&atilde;o.</p>
+                    <p align="left">O Minist&eacute;rio da Cultura e a Funda&ccedil;&atilde;o Biblioteca Nacional coordenam   e executam a&ccedil;&otilde;es de um programa que, finalmente, apresenta uma pol&iacute;tica nacional   de leitura: o Programa Fome de Livro, que pretende democratizar o acesso ao   livro atrav&eacute;s da cria&ccedil;&atilde;o e otimiza&ccedil;&atilde;o de bibliotecas p&uacute;blicas e centros de   leitura, fomentar a pr&aacute;tica da literatura (incentivando educadores e reduzindo a   lacuna entre escritores e leitores) e promover a valoriza&ccedil;&atilde;o do livro atrav&eacute;s de   campanhas nos grandes meios de comunica&ccedil;&atilde;o.</p>
+                    <p align="left">Uma das metas principais &eacute; instalar bibliotecas p&uacute;blicas com   acervo de 2.500 t&iacute;tulos selecionados, em cerca de 1.000 munic&iacute;pios do pa&iacute;s at&eacute;   2006. Aldeias ind&iacute;genas, hospitais, pres&iacute;dios, periferias e zonas rurais   contar&atilde;o com centros de leitura, cujo acervo ser&aacute; de 1.000 t&iacute;tulos em m&eacute;dia.</p>
+                    <p align="left">Para tal, o Minist&eacute;rio da Cultura disp&otilde;e de 25 milh&otilde;es de reais, o que n&atilde;o &eacute;   um n&uacute;mero significativo frente aos 500 milh&otilde;es de reais destinados ao PNBE   (Programa Nacional Biblioteca na Escola) e o PNLD (Programa Nacional do Livro   Did&aacute;tico), e principalmente se comparado ao montante desviado de forma il&iacute;cita   por pol&iacute;ticos corruptos.</p>
+                  <p><strong><img src="../images/logo_fome1.gif" width="150" height="173" align="right" class="borderspaco"></strong>Essa d&eacute;cada foi escolhida pela UNESCO (Organiza&ccedil;&atilde;o das Na&ccedil;&otilde;es Unidas para   Educa&ccedil;&atilde;o, Ci&ecirc;ncia e Cultura) como a D&eacute;cada da Alfabetiza&ccedil;&atilde;o. E j&aacute; n&atilde;o era sem   tempo, pois, a seguir, alguns dados provar&atilde;o que eu e voc&ecirc;, caro leitor, somos   muito privilegiados ou apenas caolhos perdidos numa terra de cegos por op&ccedil;&atilde;o: 14   milh&otilde;es de brasileiros n&atilde;o t&ecirc;m acesso &agrave; leitura e 38% da popula&ccedil;&atilde;o brasileira &eacute;   &ldquo;analfabeta funcional&rdquo;: pessoas que sabem ler, escrever e contar, mas n&atilde;o   conseguem compreender a palavra escrita. O Brasil &eacute; o oitavo maior produtor de   livros no mundo, por&eacute;m 73% dos livros est&atilde;o concentrados nas m&atilde;os de apenas 16%   da popula&ccedil;&atilde;o.</p>
+                  <p><img src="../images/mais_capa07.gif" width="150" height="203" align="left" class="borderspaco" />&Eacute; importante relembrar a exist&ecirc;ncia de programas como &ldquo;Fome Zero&rdquo;, que   parecem ter nascido apenas para eleger pol&iacute;ticos, pois n&atilde;o se tem qualquer   not&iacute;cia a respeito do seu desenvolvimento. Culpa tamb&eacute;m da popula&ccedil;&atilde;o, que   precisa sair de sua posi&ccedil;&atilde;o de &ldquo;expectadora passiva&rdquo; e partir para a&ccedil;&otilde;es   concretas, como participa&ccedil;&atilde;o e cobran&ccedil;a das boas e velhas promessas.</p>
+                  <p> Sabemos   que o Brasil precisa de doses cavalares de dec&ecirc;ncia com urg&ecirc;ncia. Junto a isso,   &eacute; preciso valorizar o aprendizado, a cultura, buscar a execu&ccedil;&atilde;o de programas   como o &ldquo;Fome de Livro&rdquo; para que um dia os brasileiros assumam a responsabilidade   de ser cidad&atilde;os, por conhecer e vivenciar o significado desse termo.</p>
+                  <p>A verdadeira revolu&ccedil;&atilde;o come&ccedil;a dentro de cada um. E muitas vezes, ela nasce do   simples ato de abrir um livro. </p>
+                  <p>Maiores informa&ccedil;&otilde;es: <STRONG><A href="http://www.bn.br/script/FbnFomePrincipal.asp" target="_blank">http://www.bn.br/script/FbnFomePrincipal.as</A></STRONG>                </p>
+                </div>
+                  <p>&nbsp;</p>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    
+  </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+    </body>
+</html>

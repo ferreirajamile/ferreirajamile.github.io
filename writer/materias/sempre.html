@@ -1,0 +1,262 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <p><strong>&quot;Sempre&quot; Paulo Coelho</strong><br />
+                    Revista Mais - 
+Edi&ccedil;&atilde;o 6 - 
+Ano I <br />
+                    <span class="menor"><br />
+                  Jamile Ferreira</span></p>
+<hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p><strong><img src="../images/mais_m06.gif" width="350" height="264" align="left" class="borderspaco" /></strong>Alvo de elogios e cr&iacute;ticas passionais, 
+                    Paulo Coelho n&atilde;o poderia passar ileso 
+                    por essa coluna. Carioca de 57 anos, mago, 
+                    diretor de teatro, compositor, jornalista 
+                    e escritor desde 1982, baseia sua obra atual 
+                    &#8211; o Zahir &#8211; numa tradi&ccedil;&atilde;o 
+                    isl&acirc;mica. &#8220;Zahir&#8221; &eacute; 
+                    uma palavra de origem &aacute;rabe que significa 
+                    vis&iacute;vel, presente, como uma id&eacute;ia 
+                    fixa que domina o pensamento at&eacute; que 
+                    se conquista a descoberta. <br />
+                    <br />
+                    Um escritor recebe a not&iacute;cia de que 
+                    sua esposa desapareceu. Logo, ele precisa 
+                    descobrir o que aconteceu a Esther (personagem 
+                    inspirada em Christina, sua esposa na vida 
+                    real), o motivo real do sumi&ccedil;o, o que 
+                    havia de errado no relacionamento entre eles 
+                    e o papel de uma outra pessoa na vida de sua 
+                    mulher, que influenciaria profundamente a 
+                  sua pr&oacute;pria vida.</p>
+                  <p>Nessa obra, Paulo Coelho n&atilde;o foge &agrave; 
+                              regra: di&aacute;logos insossos, alegorias 
+                                    superficiais e uma linguagem fraca que chega 
+                                    a insultar a capacidade do leitor. 
+A personagem do &#8220;escritor&#8221; possui 
+                                    muito do pr&oacute;prio autor, principalmente 
+                                    o exerc&iacute;cio do ego, que sempre se apresentou 
+                                    muito ferido por ser incompreendido pela cr&iacute;tica 
+                              &#8211; qualquer semelhan&ccedil;a n&atilde;o 
+                                    parece ser mera coincid&ecirc;ncia. <br />
+                                    <br />
+As cr&iacute;ticas fervorosas n&atilde;o s&atilde;o 
+                                    gratuitas. &Eacute; extremamente f&aacute;cil 
+                                    ler Paulo Coelho, o que n&atilde;o figura 
+                                    aqui como um elogio, j&aacute; que sua estrutura 
+                                    ling&uuml;&iacute;stica &eacute; simpl&oacute;ria -
+                                    e n&atilde;o simples, tornando alguns momentos 
+                                    apenas uma forma rebuscada de ler sugest&otilde;es 
+                                    de &#8220;Minutos de Sabedoria&#8220;; tamb&eacute;m 
+                                    um sucesso da literatura nacional, reservada 
+                                    a devida ironia.<br />
+                                    <br />
+A t&iacute;tulo de curiosidade, o articulista 
+                                    Gabriel Perriss&egrave;, relatou em sua mat&eacute;ria 
+                                    para o site &#8220;Observat&oacute;rio da 
+                                    Imprensa&#8221; sua surpresa em rela&ccedil;&atilde;o 
+                              &agrave; quantidade infind&aacute;vel do adv&eacute;rbio 
+                              &#8220;sempre&#8221; no livro: s&atilde;o 
+                                    206 inser&ccedil;&otilde;es em 316 p&aacute;ginas 
+                              &#8211; m&eacute;dia de uma palavra a cada 
+                                    duas p&aacute;ginas. Mas num pa&iacute;s onde 
+                                    o refr&atilde;o de uma m&uacute;sica &eacute; 
+                              &#8220;lirirrixa, dibaleia&#8221; (Babado 
+                                    Novo), talvez isso n&atilde;o seja t&atilde;o 
+                                    relevante a princ&iacute;pio.<br />
+                                    <br />
+Suas obras se valem de espetaculares cen&aacute;rios 
+                                    internacionais, onde a valoriza&ccedil;&atilde;o 
+                                    do Brasil &eacute; rar&iacute;ssima. Mas h&aacute; 
+                              que se dar a C&eacute;sar o que &eacute; de 
+                                    C&eacute;sar: o autor celebra mais de 65 milh&otilde;es 
+                                    de livros vendidos em 150 pa&iacute;ses, traduzido 
+                                    para 56 l&iacute;nguas, com pr&ecirc;mios 
+                                    em 7 pa&iacute;ses. N&atilde;o &eacute; poss&iacute;vel 
+                                    que n&uacute;meros t&atilde;o expressivos 
+                                    acobertem um &#8220;picareta&#8221;, como 
+                                    costura ser insultado por cr&iacute;ticos 
+                                    mais viscerais. <br />
+                                    <br />
+Segunda a revista francesa &#8220;Lire&#8221;, 
+                                    Paulo Coelho foi o segundo escritor mais vendido 
+                                    do mundo em 1998 e seu nome consta no livro 
+                                    dos recordes com a obra &#8221;O Alquimista&#8221;, 
+                                    traduzida em 53 idiomas e que ser&aacute; 
+                              filmada pela Warner Bros (em fase de pr&eacute;-produ&ccedil;&atilde;o), 
+                                    com Laurence Fishburne (Matrix), Jeremy Irons 
+                                    (Perdas e Danos) e Madonna (Evita). E em se 
+                                    tratando de celebridade, Paulo Coelho est&aacute; 
+                              em gra&ccedil;as: Bill Clinton e Sharon Stone 
+                                    s&atilde;o algumas das celebridades que se 
+                                    declaram leitores ass&iacute;duos.<br />
+                                    <br />
+E quanto mais a cr&iacute;tica o crucifica, 
+                                    mais ele vende, tanto no Brasil, quanto no 
+                                    exterior, onde conquistou o gosto dos franceses, 
+                                    junto a Danielle Steel (&#8220;5 dias em Paris&#8221;), 
+                                    por exemplo. Sua atual moradia &eacute; &#8220;no 
+                                    meio das montanhas dos Pirineus, na fronteira 
+                                    entre a Fran&ccedil;a e a Espanha&#8221;, 
+                                    segundo o mesmo, e o lan&ccedil;amento do 
+                                    livro (145 mil exemplares s&oacute; na Fran&ccedil;a) 
+                                    foi realizado no restaurante &#8220;Chalet 
+                                    des Iles&#8221;, em Paris.<br />
+                                    <br />
+Dividindo a sala com nomes como Lygia Fagundes 
+              Telles, S&aacute;bato Magaldi e Ariano Suassuna, 
+                                    Paulo Coelho ocupa a cadeira n&uacute;mero 
+                                    21 da Academia Brasileira de Letras, em disputa 
+                                    com o soci&oacute;logo H&eacute;lio Jaguaribe, 
+                                    que pertenceu ao economista Roberto Campos.<br />
+                                    <br />
+                                    Dizer que a obra de Paulo Coelho n&atilde;o 
+                              &eacute; literatura &eacute; um excesso: s&atilde;o 
+                                    hist&oacute;rias edificantes e inici&aacute;ticas, 
+                                    visando o aperfei&ccedil;oamento do ser humano, 
+                                    sugerindo abrir m&atilde;o de paradigmas e 
+                                    assumir objetivos, sem a explora&ccedil;&atilde;o 
+                                    gratuita de viol&ecirc;ncia ou sexo.<br />
+                                    <br />
+                    <img src="../images/mais_capa06.gif" width="150" height="213" align="left" class="borderspaco" />Assim como o pequeno mago &#8220;Harry Potter&#8221;, 
+                                    as obras evoluem a partir do conceito de que 
+                                    a realidade n&atilde;o &eacute; apenas a tang&iacute;vel 
+                                    e control&aacute;vel, possibilitando que o 
+                                    leitor expanda sua vis&atilde;o em rela&ccedil;&atilde;o 
+                                    ao mundo. E essa &eacute; a grande magia que 
+                                    sua leitura proporciona. <br />
+                                    <br />
+A quest&atilde;o n&atilde;o &eacute; apenas 
+                                    ler, mas tamb&eacute;m o que ler. N&atilde;o 
+                                    basta incentivar &agrave; leitura; &eacute; 
+                              preciso discuti-la em rela&ccedil;&atilde;o 
+                              &agrave; sua qualidade, &agrave; proposta 
+                                    do autor, &agrave; cultura onde ela se realiza, 
+                                    pois &eacute; a forma&ccedil;&atilde;o intelectual 
+                                    que est&aacute; sendo trabalhada, e n&atilde;o 
+                                    o exerc&iacute;cio vazio do ego ou uma disputa 
+                                    de vendas. <br />
+                                    <br />
+Escrever &eacute; um ato de coragem que exige 
+                                    responsabilidade por parte do autor e criticar 
+                              &eacute; respeitar as coer&ecirc;ncias sem 
+                                    deixar passar, de forma inadvertida, a exist&ecirc;ncia 
+                                    de falhas. <br />
+                                    <br />
+Quanto ao p&uacute;blico, fica a responsabilidade 
+                                    pelas escolhas liter&aacute;rias, para que 
+                                    n&atilde;o exista &#8220;subliteratura&#8221; 
+                              e que nossas possibilidades caminhem muito 
+            al&eacute;m dos desertos.                </p>
+                </div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>

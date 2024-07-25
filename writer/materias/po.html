@@ -1,0 +1,141 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/04materias.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <p><strong>Presidente Olegário</strong><br />
+                    Revista Mais's - Edição 14 - Ano II
+                    <br />
+            <span class="menor"><br />
+                    Jamile Ferreira</span></p>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify">
+                  <p align="center"><img src="../images/mais_m14a.gif" width="350" height="327" align="left" class="borderspaco" /></p>
+                  <p>A primeira cidade apresentada na Se&ccedil;&atilde;o Circuito Tropeiro de Minas &eacute; a deliciosa   Presidente Oleg&aacute;rio. A 28km de Patos de Minas, Presidente Oleg&aacute;rio, que j&aacute; foi   chamada Santa Rita da Boa Sorte e Santa Rita de Patos, esbanja cachoeiras lindas   e &eacute; um prato cheio para os amantes do turismo de aventura. A natureza foi   generosa com o munic&iacute;pio: po&ccedil;os, grutas, pontes e trilhas de f&aacute;cil acesso.   cachoeiras com quedas imensas, pared&otilde;es gigantescos e &aacute;guas l&iacute;mpida! </p>
+                  <p>Para estruturar o turismo, cuidar e valorizar esse patrim&otilde;nio natural, o   Conselho Municipal de Turismo (COMTUR-PO) e a Prefeitura oferecem excelentes   oportunidades para abertura de novos neg&oacute;cios, como hotel e pousada de 3 a 5   estrelas; aluguel de motos e bicicletas para trilhas; est&acirc;ncia de esportes de   aventura; ainda h&aacute; espa&ccedil;o para empresas especializadas em cachoeirismo, rafting   e escaladas em vias in&eacute;ditas.</p>
+                  <p>Os guias   tur&iacute;sticos possibilitam o acesso seguro do turista &agrave;s belezas locais e segundo   informa&ccedil;&otilde;es no site da Prefeitura Municipal, &quot;o p&oacute;lo emissor &eacute; Bras&iacute;lia, que   dista a 400km da sede do munc&iacute;pio&quot;. Mas &eacute; poss&iacute;vel flagrar muitos patense   curtindo um final de semana ensolarado &agrave; beira das &aacute;guas de Presidente Oleg&aacute;rio!   Nada melhor que colocar um t&ecirc;nis, caminhar pelas trilhas deixadas pelos   desbravadores da regi&atilde;o do Alto Parana&iacute;ba e comemorar num gostoso banho de   cachoeira para renovar a alma!</p>
+<p>Presidente Oleg&aacute;rio tamb&eacute;m &eacute; cultura! Com diversos grupos, a Folia de Reis   tem espa&ccedil;o reservado na agenda cultura da cidade e nos cora&ccedil;&otilde;es dos   moradores.</p>
+                  <p>Abaixo, ainda nessa se&ccedil;&atilde;o, e saiba mais sobre Folia de Reis!</p>
+                  <p>O 23&ordm; Festival Anual de Reis, em 2005, aconteceu no Parque de Exposi&ccedil;&otilde;es Dr.   Ant&ocirc;nio Secundino de S&atilde;o Jos&eacute;, nos dias 24 de abril de 2005 e 01 de maio de   2005. Fique atento &agrave; essa &eacute;poca do ano e deixe reservado um belo fim de semana   para conhecer essa manifesta&ccedil;&atilde;o cultural.</p>
+                  <p><strong>Folia de Reis em Presidente Oleg&aacute;rio</strong></p>
+                  <p>&quot;S&atilde;o grupos c&ecirc;nicos e musicais que dramatizam atrav&eacute;s de cantos a viagem   b&iacute;blica dos tr&ecirc;s Santos Reis Magos - Baltazar, Belchior e Gaspar a Bel&eacute;m vindos   respectivamente da Ar&aacute;bia Saudita, Eti&oacute;pia e Arm&ecirc;nia.</p>
+                  <p>No centro sul do pa&iacute;s a festa dos Tr&ecirc;s Reis Magos &eacute; conhecida por Festa dos   Santos Reis, cuja for&ccedil;a investida na bandeira tem o poder de curar ou melhorar a   vida das pessoas. </p>
+                  <p>Geralmente o   folguedo (foli&otilde;es) vai &agrave;s ruas no per&iacute;odo de 25 de dezembro (data do nascimento   de Jesus Cristo) ao dia 06 de janeiro (epfania ou festa de Santos Reis). <br />
+                  Ap&oacute;s percorrerem todas as casas pr&oacute;ximas ao festeiro e em outras da regi&atilde;o   v&atilde;o arrecadar donativos que depois juntamente com o dinheiro arrecadado &eacute;   entregue no Festival Anual de folias de reis ao Dispens&aacute;rio S&atilde;o Vicente de Paula   que os doar&aacute; as pessoas mais necessitadas do munic&iacute;pio.</p>
+                  <p>Quando o cortejo chega a uma casa a bandeira representando os Santos Reis &eacute;   passada pelo corpo dos moradores e pela cabe&ccedil;a dos doentes. </p>
+                  <p>Nesse momento eles fazem promessas dos Santos Reis e uma foto da pessoa que   pede a gra&ccedil;a &eacute; presa &agrave; bandeira. </p>
+                  <p>Em seguida para quebrar o clima de gravidade surgem personagens vestidos de   m&aacute;scaras vistosas, bizarras que s&atilde;o os palha&ccedil;os que perseguem as crian&ccedil;as, as   quais fogem entre gritos e risadas, ca&ccedil;oando at&eacute; mesmo dos donos da casa. </p>
+                  <p><img src="../images/mais_capa14.gif" width="150" height="202" align="left" class="borderspaco" />Ao final,   Santo Reis pede licen&ccedil;a e segue viagem mantendo a tradi&ccedil;&atilde;o de canto com v&aacute;rias   melodias que se desenvolvem simultaneamente. </p>
+                  <p>As folias de Reis s&atilde;o compostas de um capit&atilde;o, um alferes (carrega a   bandeira), 1&ordf; a 5&ordf; voz, pandeiro, um caixeiro, um sanfoneiro, cu&iacute;ca, viola,   vil&atilde;o, rabeca e tri&acirc;ngulo.</p>
+                  <p>O festival anual de folias de reis de Presidente Oleg&aacute;rio acontece no Parque   de Exposi&ccedil;&otilde;es Dr. Ant&ocirc;nio Secundino de S&atilde;o Jos&eacute; no &uacute;ltimo domingo de abril e no   primeiro de maio, em Presidente Oleg&aacute;rio.</p>
+                  <p>Participe deste evento cultural!&quot;</p>
+                  <p>Texto retirado do site oficial da Prefeitura Municipal de Presidente   Oleg&aacute;rio. (http://www.po.mg.gov.br)                </p>
+                </div>
+<p align="center"><a href="#topo">up!</a></p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>
