@@ -1,0 +1,163 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/02bpoemas.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                  <strong>o que não é o amor</strong><br />
+                  <span class="menor"><br />
+                  Jamile Ferreira, 7.jul.2013</span>
+                  <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="left" >
+                  <p>O que é o amor? Não sei.</p>
+                  <p>                    Só sei que <br />
+                    O
+                    amor não é frustração; o amor é pleno!<br />
+                    O amor não é tormento; o amor sonha solto…<br />
+                    O amor não é inércia; o amor dança!<br />
+                  O amor não é ofensa; o amor admira!</p>
+                  <p>                    O amor não é condição; o amor doa!<br />
+                    O amor não é negócio; o amor é de graça, toma!<br />
+                    O amor não é prazo; o amor não sabe nunca a hora de parar!<br />
+                  O amor não é peso; o amor levita!!!</p>
+                  <p>                    O amor não é desconfiança; o amor é crédulo!<br />
+                    O amor não é acomodação; o amor se move…<br />
+                    O amor não é carência; o amor está completo!!!<br />
+                  O amor não é falta; o amor está satisfeito, obrigada!</p>
+                  <p>                    O amor não é cobrança; o amor se interessa.<br />
+                    O amor não é julgamento; o amor sabe perdoar.<br />
+                    O amor não é ausência; o amor está sempre por perto.<br />
+                  O amor não é crítica; o amor sabe que não é perfeito.</p>
+                  <p>                    O amor não é fantasia; o amor é um banho de realidade.<br />
+                    O amor não é silêncio; o amor é um barulhão cá dentro!<br />
+                    O amor não é imposição; o amor dá opções.<br />
+                  O amor não é omissão; o amor tá em todas!</p>
+                  <p>                    O amor não é acusação; o amor dá o benefício da dúvida.<br />
+                    O amor não é tara; o amor sabe ter tudo sem desespero.<br />
+                    O amor não é divulgação; o amor basta.<br />
+                  O amor não é exposição; o amor é confidência.</p>
+                  <p>                    O amor não é mentira; ele cresce na verdade.<br />
+                    O amor não é medo; o amor enfrenta.<br />
+                    O amor não é controle; o amor dá liberdade.<br />
+                  O amor não é delação; o amor é sempre cúmplice.</p>
+                  <p>                    O amor não é chantagem; porque o amor não tem preço!<br />
+                    O amor não é manipulação; o amor tem muita personalidade!<br />
+                    O amor não é disputa; o amor é a história do outro.<br />
+                  O amor não é solidão; o amor sabe fazer companhia.</p>
+                  <p>                    O amor não é prisão; o amor voa…<br />
+                    O amor não é vício; o amor abre…<br />
+                    O amor não é platéia; o amor sou eu e você;<br />
+                  O amor não é dependência; o amor quer, se você quiser!</p>
+                  <p>                    O amor não é angústia; o amor dorme tranquilo!<br />
+                    O amor não é guerra; o amor almoça junto!<br />
+                    O amor não é tristeza; o amor dá festas todo dia!<br />
+                  O amor não é mudança; o amor é – onde for pra ser!</p>
+                  <p>                    O amor não é histeria; o amor é um sorriso.<br />
+                    O amor não é prova; o amor sabe!<br />
+                    O amor não é cinismo; o amor não sabe o que é isso!<br />
+                    O amor não precisa de conceituação, porque o amor se sente.
+                  </p>
+                  <p align="right">&nbsp;</p>
+<p align="center"><a href="#topo">up!</a></p>
+<p align="center">&nbsp;</p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>
