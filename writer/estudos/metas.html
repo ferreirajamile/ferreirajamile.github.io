@@ -1,0 +1,148 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jamile Ferreira, writer</title>
+<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+<link href="../master.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.menor {
+	font-size: 10px;
+}
+.style2 {	font-size: 11px;
+	line-height: 16px;
+}
+.style1 {	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.style3 {line-height: 20px; font-size: 11px;}
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js" ></script>
+<script>
+//inicio o jquery
+    jQuery(document).ready(function(){
+        clikAum     =  1;
+        clikDim     =  1;
+        
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .aumenta, esse caso o texto irá aumentar
+        $(".aumenta").click(function(){
+            if(clikAum <= 3){
+                // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+                // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 22){
+                    var nTam = nTam + 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikAum =  clikAum + 1;                
+                    clikDim = 1;
+                }                
+            }
+        });
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .diminiu, esse caso o texto irá diminuir        
+        $(".diminiu").click(function(){
+            if(clikDim <= 3){
+               // essa função irá pegar o tamanho da fonte
+                var tam = jQuery("#teste").css("font-size");
+              // essa função irá retirar o "px" da variavel tam
+                var nTam = parseInt(tam.substr(0,2));
+                if(nTam != 10){
+                    var nTam = nTam - 2;
+                    jQuery("#teste").css("font-size", nTam);
+                    clikDim =  clikDim + 1;
+                    clikAum = 1;
+                }
+            }
+        });
+
+       //função que se ativa quando o mouse clicar no elemento que possua a classe .normal, esse caso o texto irá para o tamanho normal
+        $(".normal").click(function(){
+                jQuery("#teste").css("font-size", "12px");
+                clikAum = 1;
+                clikDim = 1;
+        });
+    })
+</script>
+
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td scope="col" align="center"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fontsubtitulo">
+          <tr>
+            <td bgcolor="#d5beaf">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><a  name="topo"><img src="../images/03estudos.gif" width="980" height="70" border="0" /></a></td>
+          </tr>
+          <tr>
+            <td align="center"><table width="980" border="0" cellspacing="0" cellpadding="0">
+              <tr class="fontsubtitulo">
+              </tr>
+              <tr class="fonttitulo">
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div align="center">
+                <hr color="#d5beaf" width="500px" />
+                <p><strong>Metas Organizacionais</strong></p>
+                  <span class="menor">                    Jamile Ferreira</span>                  </p>
+                <hr color="#d5beaf" width="500px" />
+</div></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td align="center">Fonte <a href="javascript:void(0)" class="diminiu"> A-</a> | 
+<a href="javascript:void(0)" class="normal">A</a> | 
+<a href="javascript:void(0)" class="aumenta">A+</a></td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td>&nbsp;</td>
+              </tr>
+              <tr class="fontsubtitulo">
+                <td><div id="teste" align="justify" >
+                  <p>Este estudo teve como objetivo analisar as 
+                                    Metas Organizacionais, seus conceitos, fun&ccedil;&otilde;es 
+                                    e aplicabilidade, tendo como ponto referencial 
+                                    o processo de mudan&ccedil;a que esta desencadeia 
+                                    dentro de uma organiza&ccedil;&otilde;es bem 
+                                    como t&eacute;cnicas para controle dos recursos 
+                                    humanos.<br />
+                                    <br />
+Uma das principais conclus&otilde;es foi de 
+                                    que &eacute; necess&aacute;ria aten&ccedil;&atilde;o 
+                                    diuturna para com os clientes internos de 
+                                    uma organiza&ccedil;&atilde;o ao implementar 
+                                    metas organizacionais, para que se possa analisar 
+                                    sua aceita&ccedil;&atilde;o, seu grau de comprometimento 
+                                    e a participa&ccedil;&atilde;o deste no alcance 
+                                    dos objetivos estipulados.<br />
+                                    <br />
+Foi de an&aacute;lise do presente estudo a 
+                                    quest&atilde;o da cultura organizacional e 
+                                    o processo comportamental dos funcion&aacute;rios 
+                                    da organiza&ccedil;&atilde;o, partindo-se 
+                                    de que a implementa&ccedil;&atilde;o de metas 
+                                    organizacionais causa mudan&ccedil;as profundas 
+                                    na din&acirc;mica de uma empresa, sendo necess&aacute;rio 
+                                    fundamentos gerenciais, como estruturas motivacionais 
+                                    consistentes para administrar os recursos 
+                                    humanos de forma a obter deles o m&aacute;ximo 
+                                    de aceita&ccedil;&atilde;o e comprometimento 
+            com tais objetivos.</p>
+                  <p></p>
+<p align="center"><a href="#topo">up!</a></p>
+<p align="center">&nbsp;</p>
+                </div></td>
+              </tr>
+            </table></td>
+          </tr>
+  <tr>
+    <th height="56" valign="middle" background="../images/14.png" class="fontsubtitulo" scope="col"><a href="http://www.ferreirajamile.com.br/writer"><img src="../images/15.png" width="831" height="56"></a></th>
+  </tr>
+</table>
+</body>
+</html>
