@@ -420,6 +420,9 @@ ul.slimmenu.collapsed li > ul {
 .image10-background {
 	background: url(../images/background1.jpg);
 }
+.rosa01-background {
+	background: url(../images/estampa_202401.jpg);
+}
 .parallax {
   background-image: url(../images/background6.png);
   background-attachment: fixed;
@@ -443,6 +446,22 @@ ul.slimmenu.collapsed li > ul {
 }
 .parallaxcimento {
   background-image: url(../images/background1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxrose01 {
+  background-image: url(../images/estampa_202401.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxgray {
+  background-image: url(../images/background4.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1951,6 +1970,24 @@ a.scroll-down.scroll-yt {
 	background:url('../images/01formacao.jpg') no-repeat center center;
 	background-size:cover;
 	background-image: url(../images/01formacao.jpg);
+} 
+
+.project50-top {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	background:url('../images/01xadrez.jpg') no-repeat center center;
+	background-size:cover;
+	background-image: url(../images/01xadrez.jpg);
+} 
+
+.project60-top {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	background:url('../images/01linear.jpg') no-repeat center center;
+	background-size:cover;
+	background-image: url(../images/01linear.jpg);
 } 
 
 
