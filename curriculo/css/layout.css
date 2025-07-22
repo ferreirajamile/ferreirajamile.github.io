@@ -468,7 +468,13 @@ ul.slimmenu.collapsed li > ul {
   background-size: cover;
 }
 
-
+.parallaxlinear {
+  background-image: url(../images/linear.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .shadow-sec{
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
